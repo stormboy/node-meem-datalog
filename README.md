@@ -3,7 +3,7 @@ node-meem-datalog
 
 A data store for meem events on MQTT
 
-    npm install sqlite
+    npm install sqlite3
     npm install mqttjs
     npm install time
     
