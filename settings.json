@@ -2,5 +2,6 @@
 	"mqttHost" : "192.168.0.23",
 	"mqttPort" : "1883",
 	"queryTopic" : "/data/log",
-	"dataTopics" : ["/house/#"]
+	"dataTopics" : ["/house/#"],
+	"db" : "/home/pi/source/node-meem-datalog/log.db"
 }
