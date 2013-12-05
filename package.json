@@ -1,0 +1,29 @@
+{
+  "name": "meem-datalog",
+  "version": "0.0.1",
+  "description": "Meemplex data logger",
+  "main": "index",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "mqtt": "*",
+    "sqlite3": "*",
+    "time": "*"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stormboy/node-meem-datalog.git"
+  },
+  "keywords": [
+    "Meemplex",
+    "MQTT"
+  ],
+  "author": "Warren Bloomer",
+  "license": "BSD"
+}

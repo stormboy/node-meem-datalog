@@ -3,9 +3,7 @@ node-meem-datalog
 
 A data store for meem events on MQTT
 
-    npm install sqlite3
-    npm install mqttjs
-    npm install time
+    npm install
     
 To query for data, publish a query to the data-query topic.  The payload of the message is the topic for the DataGimp to
 publish results to.
