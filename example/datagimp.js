@@ -43,7 +43,7 @@ DataGimp.prototype._init = function(options) {
 	var self = this;
 	
 	// connect to MQTT service
-	var clientId = crypto.randomBytes(8).toString('hex');		// create a random client ID for MQTT
+	var clientId = "datalog_" + crypto.randomBytes(8).toString('hex');		// create a random client ID for MQTT
 	self.mqttClient = mqtt.createClient(options.port, options.host, {
 			keepalive: 60,
 			client: clientId
